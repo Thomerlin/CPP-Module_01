@@ -1,9 +1,9 @@
 
-FILES	=	main.cpp strReplace.cpp 
+FILES	=	main.cpp Harl.cpp 
 
 DIR		=	./
 
-HEADERS	=	strReplace.hpp
+HEADERS	=	Harl.hpp
 
 OBJ_DIR	=	objects
 
@@ -11,7 +11,7 @@ SOURCES	=	$(addprefix $(DIR)/, $(FILES))
 
 OBJECTS	=	$(SOURCES:$(DIR)/%.cpp=$(OBJ_DIR)/%.o)
 
-NAME	=	sed
+NAME	=	harl
 
 CC		=	c++
 

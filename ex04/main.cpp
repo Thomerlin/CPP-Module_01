@@ -36,3 +36,5 @@ int main(int argc, char *argv[])
 	ofs.close();
 	return (0);
 }
+
+// comando --> ./sed test a 2
